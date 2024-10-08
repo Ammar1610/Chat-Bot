@@ -8,7 +8,7 @@ from django.utils import timezone
 
 import google.generativeai as genai
 
-API_KEY="AIzaSyCle3U6Gu-HEjXFklkLjoK7trxlEV-cUPM"
+API_KEY="YOUR API KEY"
 genai.configure(api_key=API_KEY)
 
 model = genai.GenerativeModel('gemini-pro')
